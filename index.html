@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BB SHOP</title>
+    <!-- Style.css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- BS Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- BS Bundel -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- FontAwsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Jquerry cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+   
+  <!-- JQurry -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</head>
+<body >
+
+  <div id="preload" class="preload">
+    Loading...
+</div>
+    
+  <div class="Main-class">
+    <nav class="navbar navbar-expand-md navbar-dark position-sticky" id="navbar">
+      <div class="container-fluid" >
+        <a class="navbar-brand d-md-none" href="#">
+          <img src="https://images.ctfassets.net/dvf03q5b4rnw/6n4pfghgiGacCYkeg5M8Gc/aa0f131417aff2e41c11c963417ba548/babyshop_logo.svg?w=537&h=173&q=80"  alt="">
+        </a>
+        <div class="d-block d-md-none d-lg-none  ">
+          <button onclick="myFunc()" class="btn serach-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          
+         </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <a class="navbar-brand d-none d-md-block p-0" href="#">
+              <img src="https://images.ctfassets.net/dvf03q5b4rnw/6n4pfghgiGacCYkeg5M8Gc/aa0f131417aff2e41c11c963417ba548/babyshop_logo.svg?w=537&h=173&q=80" class="logo" style="height: 48px; width: 150px;" height="48px" width="150px" alt="">
+            </a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Contact</a>
+            </li> 
+          </ul>
+          
+         
+         <div class="d-none d-md-block text-white">
+          <button onclick="myFunc()" class="btn ">
+            <i class="fa-solid fa-magnifying-glass "></i>
+          </button>
+          <i class="fa-solid fa-cart-shopping" id="id"></i>
+        </div>
+        
+        
+          <!-- <form class="form-inline">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Serach" aria-label="Username" aria-describedby="basic-addon1">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">@</span>
+              </div>
+            </div>
+          </form> -->
+          
+        </div>
+      </div>
+      
+    </nav>
+    <input style="display: none;" class="w-75 mt-3 m-auto p-2" placeholder="Serach Product" type="text" name="" id="search-input">
+
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit est pariatur similique rerum error excepturi architecto modi, culpa corporis dolor facilis, commodi, natus eaque qui itaque eos ad minus! Minima!
+      Voluptatibus tempora laboriosam veniam odio voluptas! Animi numquam quam ut nisi, totam modi suscipit vero quos commodi perferendis id sunt! Delectus, ut voluptatum. Animi quibusdam maiores reiciendis delectus aliquam earum.
+      Laboriosam asperiores, temporibus omnis vero minima culpa, consequuntur aliquam qui cum autem, aperiam iusto repellat. Culpa quia modi, similique quas ducimus aliquam, deleniti voluptates a laboriosam quae recusandae explicabo nostrum?
+      Aspernatur magni fuga velit deleniti ab officiis, eaque delectus unde. Veniam ullam architecto qui dicta, vel necessitatibus rem perferendis labore illo natus quo, error, minus recusandae aperiam. Omnis, similique dolores.
+      Dicta ut reiciendis deleniti minus id vero amet facilis! Illo alias veniam quisquam, aperiam qui mollitia labore minima ea. Velit libero aliquam tenetur dolorum obcaecati deleniti aperiam dolorem dolores maxime.
+      Aliquam sed dolorem totam laudantium repellat deleniti nemo quas obcaecati quaerat facilis consectetur quae magnam et veritatis neque ex voluptatibus, aspernatur, iure modi illo maiores? Vero rerum doloribus commodi quibusdam?
+      Nisi harum ex omnis fuga odit et similique corrupti quas voluptates. Pariatur excepturi officiis ex. Corrupti necessitatibus exercitationem sapiente, maiores tempora adipisci quia repellat ab in, suscipit blanditiis et voluptatibus.
+      Aut repellendus possimus sunt numquam quam dignissimos, maiores vel! Id architecto consectetur velit alias, magni et eligendi fugiat, dignissimos sequi delectus debitis modi provident, laboriosam quod quo quisquam? Quisquam, perspiciatis.
+      Iusto cupiditate tempore distinctio odit nobis quisquam, aspernatur ab sapiente, natus, autem animi obcaecati numquam commodi illo? Minima inventore minus quidem! Cum officiis ipsum necessitatibus fuga ex ratione nostrum dolorum.
+      Nostrum ut molestias fuga quam provident veritatis vitae quaerat. Cupiditate beatae laudantium similique quas quibusdam laborum laboriosam fugiat animi nostrum eos officiis, eum, dolores ipsum. Laboriosam doloremque molestiae libero ad?</p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit est pariatur similique rerum error excepturi architecto modi, culpa corporis dolor facilis, commodi, natus eaque qui itaque eos ad minus! Minima!
+        Voluptatibus tempora laboriosam veniam odio voluptas! Animi numquam quam ut nisi, totam modi suscipit vero quos commodi perferendis id sunt! Delectus, ut voluptatum. Animi quibusdam maiores reiciendis delectus aliquam earum.
+        Laboriosam asperiores, temporibus omnis vero minima culpa, consequuntur aliquam qui cum autem, aperiam iusto repellat. Culpa quia modi, similique quas ducimus aliquam, deleniti voluptates a laboriosam quae recusandae explicabo nostrum?
+        Aspernatur magni fuga velit deleniti ab officiis, eaque delectus unde. Veniam ullam architecto qui dicta, vel necessitatibus rem perferendis labore illo natus quo, error, minus recusandae aperiam. Omnis, similique dolores.
+        Dicta ut reiciendis deleniti minus id vero amet facilis! Illo alias veniam quisquam, aperiam qui mollitia labore minima ea. Velit libero aliquam tenetur dolorum obcaecati deleniti aperiam dolorem dolores maxime.
+        Aliquam sed dolorem totam laudantium repellat deleniti nemo quas obcaecati quaerat facilis consectetur quae magnam et veritatis neque ex voluptatibus, aspernatur, iure modi illo maiores? Vero rerum doloribus commodi quibusdam?
+        Nisi harum ex omnis fuga odit et similique corrupti quas voluptates. Pariatur excepturi officiis ex. Corrupti necessitatibus exercitationem sapiente, maiores tempora adipisci quia repellat ab in, suscipit blanditiis et voluptatibus.
+        Aut repellendus possimus sunt numquam quam dignissimos, maiores vel! Id architecto consectetur velit alias, magni et eligendi fugiat, dignissimos sequi delectus debitis modi provident, laboriosam quod quo quisquam? Quisquam, perspiciatis.
+        Iusto cupiditate tempore distinctio odit nobis quisquam, aspernatur ab sapiente, natus, autem animi obcaecati numquam commodi illo? Minima inventore minus quidem! Cum officiis ipsum necessitatibus fuga ex ratione nostrum dolorum.
+        Nostrum ut molestias fuga quam provident veritatis vitae quaerat. Cupiditate beatae laudantium similique quas quibusdam laborum laboriosam fugiat animi nostrum eos officiis, eum, dolores ipsum. Laboriosam doloremque molestiae libero ad?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit est pariatur similique rerum error excepturi architecto modi, culpa corporis dolor facilis, commodi, natus eaque qui itaque eos ad minus! Minima!
+          Voluptatibus tempora laboriosam veniam odio voluptas! Animi numquam quam ut nisi, totam modi suscipit vero quos commodi perferendis id sunt! Delectus, ut voluptatum. Animi quibusdam maiores reiciendis delectus aliquam earum.
+          Laboriosam asperiores, temporibus omnis vero minima culpa, consequuntur aliquam qui cum autem, aperiam iusto repellat. Culpa quia modi, similique quas ducimus aliquam, deleniti voluptates a laboriosam quae recusandae explicabo nostrum?
+          Aspernatur magni fuga velit deleniti ab officiis, eaque delectus unde. Veniam ullam architecto qui dicta, vel necessitatibus rem perferendis labore illo natus quo, error, minus recusandae aperiam. Omnis, similique dolores.
+          Dicta ut reiciendis deleniti minus id vero amet facilis! Illo alias veniam quisquam, aperiam qui mollitia labore minima ea. Velit libero aliquam tenetur dolorum obcaecati deleniti aperiam dolorem dolores maxime.
+          Aliquam sed dolorem totam laudantium repellat deleniti nemo quas obcaecati quaerat facilis consectetur quae magnam et veritatis neque ex voluptatibus, aspernatur, iure modi illo maiores? Vero rerum doloribus commodi quibusdam?
+          Nisi harum ex omnis fuga odit et similique corrupti quas voluptates. Pariatur excepturi officiis ex. Corrupti necessitatibus exercitationem sapiente, maiores tempora adipisci quia repellat ab in, suscipit blanditiis et voluptatibus.
+          Aut repellendus possimus sunt numquam quam dignissimos, maiores vel! Id architecto consectetur velit alias, magni et eligendi fugiat, dignissimos sequi delectus debitis modi provident, laboriosam quod quo quisquam? Quisquam, perspiciatis.
+          Iusto cupiditate tempore distinctio odit nobis quisquam, aspernatur ab sapiente, natus, autem animi obcaecati numquam commodi illo? Minima inventore minus quidem! Cum officiis ipsum necessitatibus fuga ex ratione nostrum dolorum.
+          Nostrum ut molestias fuga quam provident veritatis vitae quaerat. Cupiditate beatae laudantium similique quas quibusdam laborum laboriosam fugiat animi nostrum eos officiis, eum, dolores ipsum. Laboriosam doloremque molestiae libero ad?
+          p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit est pariatur similique rerum error excepturi architecto modi, culpa corporis dolor facilis, commodi, natus eaque qui itaque eos ad minus! Minima!
+        Voluptatibus tempora laboriosam veniam odio voluptas! Animi numquam quam ut nisi, totam modi suscipit vero quos commodi perferendis id sunt! Delectus, ut voluptatum. Animi quibusdam maiores reiciendis delectus aliquam earum.
+        Laboriosam asperiores, temporibus omnis vero minima culpa, consequuntur aliquam qui cum autem, aperiam iusto repellat. Culpa quia modi, similique quas ducimus aliquam, deleniti voluptates a laboriosam quae recusandae explicabo nostrum?
+        Aspernatur magni fuga velit deleniti ab officiis, eaque delectus unde. Veniam ullam architecto qui dicta, vel necessitatibus rem perferendis labore illo natus quo, error, minus recusandae aperiam. Omnis, similique dolores.
+        Dicta ut reiciendis deleniti minus id vero amet facilis! Illo alias veniam quisquam, aperiam qui mollitia labore minima ea. Velit libero aliquam tenetur dolorum obcaecati deleniti aperiam dolorem dolores maxime.
+        Aliquam sed dolorem totam laudantium repellat deleniti nemo quas obcaecati quaerat facilis consectetur quae magnam et veritatis neque ex voluptatibus, aspernatur, iure modi illo maiores? Vero rerum doloribus commodi quibusdam?
+        Nisi harum ex omnis fuga odit et similique corrupti quas voluptates. Pariatur excepturi officiis ex. Corrupti necessitatibus exercitationem sapiente, maiores tempora adipisci quia repellat ab in, suscipit blanditiis et voluptatibus.
+        Aut repellendus possimus sunt numquam quam dignissimos, maiores vel! Id architecto consectetur velit alias, magni et eligendi fugiat, dignissimos sequi delectus debitis modi provident, laboriosam quod quo quisquam? Quisquam, perspiciatis.
+        Iusto cupiditate tempore distinctio odit nobis quisquam, aspernatur ab sapiente, natus, autem animi obcaecati numquam commodi illo? Minima inventore minus quidem! Cum officiis ipsum necessitatibus fuga ex ratione nostrum dolorum.
+        Nostrum ut molestias fuga quam provident veritatis vitae quaerat. Cupiditate beatae laudantium similique quas quibusdam laborum laboriosam fugiat animi nostrum eos officiis, eum, dolores ipsum. Laboriosam doloremque molestiae libero ad?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit est pariatur similique rerum error excepturi architecto modi, culpa corporis dolor facilis, commodi, natus eaque qui itaque eos ad minus! Minima!
+          Voluptatibus tempora laboriosam veniam odio voluptas! Animi numquam quam ut nisi, totam modi suscipit vero quos commodi perferendis id sunt! Delectus, ut voluptatum. Animi quibusdam maiores reiciendis delectus aliquam earum.
+          Laboriosam asperiores, temporibus omnis vero minima culpa, consequuntur aliquam qui cum autem, aperiam iusto repellat. Culpa quia modi, similique quas ducimus aliquam, deleniti voluptates a laboriosam quae recusandae explicabo nostrum?
+          Aspernatur magni fuga velit deleniti ab officiis, eaque delectus unde. Veniam ullam architecto qui dicta, vel necessitatibus rem perferendis labore illo natus quo, error, minus recusandae aperiam. Omnis, similique dolores.
+          Dicta ut reiciendis deleniti minus id vero amet facilis! Illo alias veniam quisquam, aperiam qui mollitia labore minima ea. Velit libero aliquam tenetur dolorum obcaecati deleniti aperiam dolorem dolores maxime.
+          Aliquam sed dolorem totam laudantium repellat deleniti nemo quas obcaecati quaerat facilis consectetur quae magnam et veritatis neque ex voluptatibus, aspernatur, iure modi illo maiores? Vero rerum doloribus commodi quibusdam?
+          Nisi harum ex omnis fuga odit et similique corrupti quas voluptates. Pariatur excepturi officiis ex. Corrupti necessitatibus exercitationem sapiente, maiores tempora adipisci quia repellat ab in, suscipit blanditiis et voluptatibus.
+          Aut repellendus possimus sunt numquam quam dignissimos, maiores vel! Id architecto consectetur velit alias, magni et eligendi fugiat, dignissimos sequi delectus debitis modi provident, laboriosam quod quo quisquam? Quisquam, perspiciatis.
+          Iusto cupiditate tempore distinctio odit nobis quisquam, aspernatur ab sapiente, natus, autem animi obcaecati numquam commodi illo? Minima inventore minus quidem! Cum officiis ipsum necessitatibus fuga ex ratione nostrum dolorum.
+          Nostrum ut molestias fuga quam provident veritatis vitae quaerat. Cupiditate beatae laudantium similique quas quibusdam laborum laboriosam fugiat animi nostrum eos officiis, eum, dolores ipsum. Laboriosam doloremque molestiae libero ad?
+        </p>
+
+
+
+
+  </div>
+      
+      <script>
+
+
+$(window).on('load', function() {
+    $("#preload").fadeOut(2000, function() { // Hide the preloader with fade effect
+        $(".Main-class").fadeIn(1000);      // Show the main content with fade effect
+    });
+});
+
+        window.onscroll = function() {
+            var nav = document.getElementById('navbar');
+            if (window.pageYOffset > 100) {
+                nav.classList.add("scrollNav");
+            } else {
+                nav.classList.remove("scrollNav");
+            }
+        }
+
+        const myFunc = () => {
+  const x = document.getElementById("search-input");
+
+  if (x.classList.contains("active")) {
+    x.classList.remove("active");
+    setTimeout(() => {
+      x.style.display = "none";
+    }, 500); 
+  } else {
+    x.style.display = "block"; 
+    requestAnimationFrame(() => {
+      x.classList.add("active");
+    });
+  }
+};
+
+    </script>
+
+</body>
+</html>
