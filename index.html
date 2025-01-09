@@ -31,15 +31,19 @@
   <div class="Main-class">
     <nav class="navbar navbar-expand-md navbar-dark position-sticky" id="navbar">
       <div class="container-fluid" >
-        <a class="navbar-brand d-md-none" href="#">
-          <img src="https://images.ctfassets.net/dvf03q5b4rnw/6n4pfghgiGacCYkeg5M8Gc/aa0f131417aff2e41c11c963417ba548/babyshop_logo.svg?w=537&h=173&q=80"  alt="">
+        <a class="navbar-brand d-md-none p-0" href="#">
+          <img src="https://images.ctfassets.net/dvf03q5b4rnw/6n4pfghgiGacCYkeg5M8Gc/aa0f131417aff2e41c11c963417ba548/babyshop_logo.svg?w=537&h=173&q=80" class="logoo" style="height: 48px; width: 150px;" alt="">
         </a>
         <div class="d-block d-md-none d-lg-none  ">
           <button onclick="myFunc()" class="btn serach-btn">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
+          <button class="btn">
+            <i class="fa-solid fa-cart-shopping" id="id"></i>
+          </button>
           
          </div>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -55,7 +59,7 @@
               <img src="https://images.ctfassets.net/dvf03q5b4rnw/6n4pfghgiGacCYkeg5M8Gc/aa0f131417aff2e41c11c963417ba548/babyshop_logo.svg?w=537&h=173&q=80" class="logo" style="height: 48px; width: 150px;" height="48px" width="150px" alt="">
             </a>
             <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
+              <a class="nav-link" href="Login.html">Login</a>
             </li>
             <li class="nav-item">
               <a class="nav-link">Contact</a>
@@ -67,7 +71,9 @@
           <button onclick="myFunc()" class="btn ">
             <i class="fa-solid fa-magnifying-glass "></i>
           </button>
-          <i class="fa-solid fa-cart-shopping" id="id"></i>
+          <button class="btn">
+            <i class="fa-solid fa-cart-shopping" id="id"></i>
+          </button>
         </div>
         
         
@@ -142,40 +148,7 @@
 
   </div>
       
-      <script>
-
-
-$(window).on('load', function() {
-    $("#preload").fadeOut(2000, function() { // Hide the preloader with fade effect
-        $(".Main-class").fadeIn(1000);      // Show the main content with fade effect
-    });
-});
-
-        window.onscroll = function() {
-            var nav = document.getElementById('navbar');
-            if (window.pageYOffset > 100) {
-                nav.classList.add("scrollNav");
-            } else {
-                nav.classList.remove("scrollNav");
-            }
-        }
-
-        const myFunc = () => {
-  const x = document.getElementById("search-input");
-
-  if (x.classList.contains("active")) {
-    x.classList.remove("active");
-    setTimeout(() => {
-      x.style.display = "none";
-    }, 500); 
-  } else {
-    x.style.display = "block"; 
-    requestAnimationFrame(() => {
-      x.classList.add("active");
-    });
-  }
-};
-
+      <script src="index.js">
     </script>
 
 </body>

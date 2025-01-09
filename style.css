@@ -6,12 +6,19 @@
 }
 
 
-nav.scrollNav img.logo {
+nav.scrollNav img.logo  {
     
-    padding: 7px;
+    padding: 6px;
     background: white;
 
 }
+nav.scrollNav img.logoo  {
+    
+  padding: 6px;
+  background: white;
+
+}
+
 
 .navbar-brand img {
     width: 70px;
@@ -78,6 +85,19 @@ img.logo {
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 50%;
 }
+img.logoo {
+  /* height: 150px; */
+  background: transparent;
+  /* padding: 20px; */
+  position: relative;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%,-15%);
+  transition: 1s;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 50%;
+}
+
 
 .clicker {
   width:100px;
